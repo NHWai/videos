@@ -3,8 +3,6 @@ import styled from "styled-components";
 
 export default class CurrentVideo extends Component {
   render() {
-    console.log(this.props.video);
-
     const { id, snippet } = this.props.video;
 
     if (this.props.video) {
